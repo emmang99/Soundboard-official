@@ -1,0 +1,137 @@
+/*All the styling here effects the whole file.*/
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+
+/*This is the styling for all of my navs*/
+nav {
+  background-color: #34495E;
+  width: 100%;
+  position: fixed;
+}
+
+/*This styles my header nav only*/
+header nav {
+ display: inline-block;
+ height: 55px;
+ text-align: right;
+}
+
+/*This styles my links in all my navs*/
+nav a {
+ color: white;
+ padding: 3px 13px;
+ text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #283747;
+  color: #EDBB99;
+}
+
+/*This styles my image in the nav*/
+nav img {
+  width: 250px;
+  height: 55px;
+  float: left;
+}
+
+/*This customizes h1 text*/
+h1 {
+  font-size: 70px;
+  font-family: 'Dosis', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+/*I hide game and quote section in this*/
+#game,#quote {
+  display: none;
+}
+
+/*This styles my movie section differently with the other sections.*/
+.moviesound {
+  background-color: #EAF2F8;
+  color: #F5CBA7;
+}
+/*This styles my h1 text in the movie section differently with the other sections.*/
+.moviesound h1{
+  color: #EDBB99;
+}
+
+/*This styles my game section differently with the other sections.*/
+.gamesound {
+  background-color: #A9CCE3;
+  color:  #73624A;
+}
+
+/*This styles my h1 text in the game section differently with the other sections.*/
+.gamesound h1 {
+  color: #968061;
+}
+
+/*This styles my quote section differently with the other sections.*/
+.quotesound {
+  background-color: #2980B9;
+  color: #FDF2E9;
+}
+
+/*This styles my h1 text in the quote section differently with the other sections.*/
+.quotesound h1 {
+  color: #FAE5D3;
+}
+
+/*This styles all of the sections.*/
+section > div {
+  padding-top: 20px;
+  line-height: 1.5;
+  text-align:center;
+  width: 100%;
+  height: 100vh;
+}
+
+/*This positions the sound boxes.*/
+.sounds {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+/*This styles the images in sound boxes.*/
+.sounds img {
+  width: 190px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/*This styles the sound boxes.*/
+.sounds li {
+  padding: 5px;
+  background-color: black;
+  box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.5);
+  width: 200px;
+  height: 200px;
+}
+
+.sounds li a:hover {
+  background-color: white;
+  padding: 5px 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  color: #34495E;
+  cursor: pointer;
+}
+
+/*This styles my footer nav only*/
+footer nav {
+  bottom: 0;
+  height: 40px;
+  text-align: center;
+}
+
+footer nav a {
+  font-size: 25px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soundboard</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="soundboard.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:800|Indie+Flower" rel="stylesheet">
+  </head>
+
+  <body>
+   <header>
+<!--This is my navigation bar, each item is linked to a specific part in the main section by anchors.-->
+    <nav>
+     <img src="https://thesoundboardreviews.files.wordpress.com/2015/07/cropped-cropped-cropped-thesoundboardlogofinal4.jpg"/>
+      <a href="#" data-effect="movie">MOVIES</a>
+      <a href="#" data-effect="game">GAMES</a>
+      <a href="#" data-effect="quote">QUOTES</a>
+    </nav>
+   </header>
+
+   <main>
+<!--This is my 'movie' sound section. The id links this section to the navbar.-->
+<!--The a data-butoon tag is to link the button to the audio with the same class. The class="button" is linked with const keys in js.-->
+      <section id="movie"> <div class="moviesound">
+       <h1>MOVIES</h1>
+       <p>"No good movie is too long and no bad movie is short enough." - Roger Ebert</p>
+       <p>A compilation of famous sound effects in movies.</p>
+       <ul class="sounds">
+         <li>
+           <img src="https://i.pinimg.com/736x/8d/5f/fb/8d5ffb8baf1a53de3e319e200edc4050--minimal-poster-minimal-movie-posters.jpg">
+           <a data-button="inception" class ="button">Inception</a>
+         </li>
+         <li>
+           <img src="https://s-media-cache-ak0.pinimg.com/originals/f6/76/1b/f6761b02c709bd692084b7d8b450bdd9.jpg">
+           <a data-button="mission" class ="button">MI Theme</a>
+         </li>
+         <li>
+           <img src="https://1.bp.blogspot.com/-iI9cnZWKUM4/V2udgtH6KEI/AAAAAAAACpQ/NHa4c_E58WsmIVsW5Ynel2i7Fz9YOwJdwCLcB/s1600/007.gif">
+           <a data-button="bond" class ="button">007</a>
+         </li>
+         <li>
+           <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b7a30b9353569.5626e5f6ca695.png">
+           <a data-button="saber" class ="button">Star Wars</a>
+         </li>
+         <li>
+           <img src="https://img1.etsystatic.com/021/1/7614885/il_570xN.481819513_spn4.jpg">
+           <a data-button="xfiles" class ="button">The X Files</a>
+         </li>
+       </ul>
+      </div>
+      </section>
+
+<!--This is my 'game' sound section. The id links this section to the navbar.-->
+<!--The a data-butoon tag is to link the button to the audio with the same class. The class="button" is linked with const keys in js.-->
+      <section id="game"><div class="gamesound">
+       <h1>GAMES</h1>
+       <p>"Life is a game, all you have to do is know how to play it." - Somebody</p>
+       <p>A collection of well-known sound effects in games.</p>
+       <ul class="sounds">
+         <li>
+           <img src="https://i.pinimg.com/236x/01/bb/4d/01bb4dc14fb69f4ed715b63258e97f8b--mario-luigi-donkey-kong.jpg">
+           <a data-button="mario" class ="button">Mario</a>
+         </li>
+         <li>
+           <img src="https://img00.deviantart.net/623c/i/2010/243/8/3/pacman_by_r0maint-d2xp3ug.jpg">
+           <a data-button="pacman" class ="button">Pacman</a>
+         </li>
+         <li>
+           <img src="http://www.laboiteverte.fr/wp-content/uploads/2011/08/Affiche-Minimaliste-Jeu-Video-10.jpg">
+           <a data-button="metalgear" class ="button">MGS Alert</a>
+         </li>
+         <li>
+           <img src="https://pre00.deviantart.net/f8e0/th/pre/i/2015/363/2/9/legend_of_zelda__triforce_minimalist_poster__by_aphroditeweiss-d9lxi9g.jpg">
+           <a data-button="zelda" class ="button">Zelda</a>
+         </li>
+         <li>
+           <img src="http://www.tshirtroundup.com/wp-content/uploads/2013/02/Minimal-Sonic-Variation-Tshirtroundup-Image.jpg">
+           <a data-button="sonic" class ="button">Sonic</a>
+         </li>
+       </ul>
+      </div>
+      </section>
+
+<!--This is my 'quote' sound section. The id links this section to the navbar.-->
+<!--The a data-butoon tag is to link the button to the audio with the same class. The class="button" is linked with const keys in js.-->
+      <section id="quote"><div class="quotesound">
+       <h1>QUOTES</h1>
+       <p>"No good movie is without deep quote." - Me</p>
+       <p>A group of popular quotes in modern movies.</p>
+       <ul class="sounds">
+         <li>
+           <img src="https://s-media-cache-ak0.pinimg.com/originals/22/01/94/2201943ad5dcf18922ccdd07ff1b0c85.jpg">
+           <a data-button="box" class ="button">Se7en</a>
+         </li>
+         <li>
+           <img src="https://c1.staticflickr.com/6/5503/12303534584_7c17cde800_b.jpg">
+           <a data-button="300" class ="button">300</a>
+         </li>
+         <li>
+           <img src="https://i.pinimg.com/736x/f2/e3/51/f2e3515f7afb377ea86c9142fcb81381.jpg">
+           <a data-button="jeff" class ="button">Jeff</a>
+         </li>
+         <li>
+           <img src="https://pre00.deviantart.net/67cb/th/pre/i/2016/013/c/f/harry_potter_minimalist_poster_by_nabani01-d9nsakz.jpg">
+           <a data-button="wizard" class ="button">Hagrid</a>
+         </li>
+         <li>
+           <img src="https://i.pinimg.com/236x/18/2f/ec/182fec56c6399bec753edaec020c00f5--awesome-posters-minimalist-movie-posters.jpg">
+           <a data-button="gandalf" class ="button">Gandalf</a>
+         </li>
+       </ul>
+      </div>
+      </section>
+    </main>
+
+<!--This is where I put my audio.-->
+    <audio data-button="inception" src="sound/inception.mp3"></audio>
+    <audio data-button="mission" src="sound/mission.mp3"></audio>
+    <audio data-button="bond" src="sound/bond.mp3"></audio>
+    <audio data-button="saber" src="sound/saber.mp3"></audio>
+    <audio data-button="xfiles" src="sound/xfiles.mp3"></audio>
+    <audio data-button="mario" src="sound/mario.mp3"></audio>
+    <audio data-button="pacman" src="sound/pacman.mp3"></audio>
+    <audio data-button="metalgear" src="sound/metal.mp3"></audio>
+    <audio data-button="zelda" src="sound/zelda.mp3"></audio>
+    <audio data-button="sonic" src="sound/sonic.mp3"></audio>
+    <audio data-button="box" src="sound/box.mp3"></audio>
+    <audio data-button="300" src="sound/sparta.mp3"></audio>
+    <audio data-button="jeff" src="sound/jeff.mp3"></audio>
+    <audio data-button="wizard" src="sound/wizard.mp3"></audio>
+    <audio data-button="gandalf" src="sound/gandalf.mp3"></audio>
+
+<!--This is my footer navbar.-->
+    <footer>
+     <nav>
+       <a href="#" data-effect="movie">MOVIES</a>
+       <a href="#" data-effect="game">GAMES</a>
+       <a href="#" data-effect="quote">QUOTES</a>
+     </nav>
+    </footer>
+
+<!--This links html doc to js.-->
+  <script src ="audio.js"></script>
+
+  </body>
+</html>
